@@ -1,0 +1,132 @@
+.footer-colums .site-footer__primary-nav,
+.footer-colums ul.social-nav.footer-right-nav {
+    width: 50%;
+    display: inline-block;
+    vertical-align: bottom;
+    margin-right: 0;
+}
+
+.footer-right-nav ul {
+    display: none;
+    overflow: hidden;
+    position: relative
+}
+
+.footer-colums {
+    display: flex;
+    width: 100%;
+}
+
+footer .footer-right-nav li,
+footer .footer-right-nav li:first-child {
+    margin: 0 !important;
+}
+
+.footer-right-nav li.social-list ul li.is__active a {
+    color: #ff0000;
+}
+
+footer .footer-right-nav li.social-list.active a,
+footer .footer-right-nav li.country-list.active a,
+footer .footer-right-nav li.country-list.active ul li a._active {
+    color: #ff0000;
+}
+
+footer .footer-right-nav li.social-list.active ul li a,
+.footer-right-nav li.social-list ul li.is__active ul li a,
+footer .footer-right-nav li.country-list.active ul li a {
+    color: #000
+}
+
+footer .footer-right-nav li.country-list.active ul li a._active {
+    font-style: italic;
+    font-family: "Ogilvy Serif", Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+@media (min-width:1261px) {
+    .footer-colums {
+        display: block;
+        width: 100%;
+    }
+
+    footer .footer-right-nav li {
+        padding: 0 10px;
+        text-align: left;
+        vertical-align: bottom;
+    }
+
+    footer .footer-right-nav li:last-child {
+        padding-right: 0;
+    }
+
+    footer .footer-right-nav li li {
+        padding: 0 0px;
+        text-align: left;
+        display: block;
+    }
+
+    footer .footer-right-nav li {
+        padding: 0 9px 0 10px;
+        text-align: left;
+        line-height: 1.19;
+        align-self: flex-end;
+    }
+
+    ul.social-nav.footer-right-nav {
+        display: flex;
+        align-items: flex-end;
+        position: absolute;
+        right: 2rem;
+        bottom: 0;
+    }
+
+    footer .footer-right-nav li.social-list {
+        width: 71px;
+        transition: all 0.5s ease-in-out;
+        padding-right: 0;
+        background: #fff
+    }
+
+    footer .footer-right-nav li.social-list.active {
+        width: 79px;
+    }
+
+    footer .footer-right-nav li.country-list {
+        width: 90px;
+        background: #fff;
+        padding-left: 19px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    footer .footer-right-nav li.country-list.active {
+        width: 227px;
+        padding: 20px 0px 0 20px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .footer-right-nav li.country-list ul li,
+    .footer-right-nav li.social-list ul li {
+        font-size: 1em;
+        transition: all ease-in-out 0s;
+        line-height: 1.19;
+        animation-delay: 1s;
+    }
+
+    .footer-right-nav li.country-list ul li.is__active,
+    .footer-right-nav li.social-list ul li.is__active {
+        transition: all ease-in-out 2s;
+    }
+
+    .footer-right-nav li.social-list ul li span {
+        opacity: 0;
+        transition: all ease-in-out 1s;
+    }
+
+    .footer-right-nav li.social-list ul li span.is__active {
+        opacity: 1;
+    }
+}
+
+footer .container {
+    position: relative
+}

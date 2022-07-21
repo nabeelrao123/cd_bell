@@ -3,7 +3,7 @@ import './Home.css';
 import img1 from '../assets/img1.jpeg'
 import Header from "../header/Header";
 import { Link } from "react-router-dom";
-
+import Footer from "../Footer/Footer";
 
 
 const Home = () => {
@@ -276,6 +276,7 @@ const Home = () => {
 
             </div>
         </main >
+        <Footer />
     </>)
 }
 
