@@ -3548,7 +3548,7 @@ body.has-feed-modal .feed-crm-pop_wrapper {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    background: #f5bac5;
+    background: #8d545e;
     color: #eb3f43;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -4008,7 +4008,7 @@ body.has-feed-modal .feed-crm-pop_wrapper {
 }
 
 .splash__wrapper {
-    background-color: #eb3f43;
+    background-color: #D0BD74 !important;
     display: block;
     left: 0;
     overflow-x: auto;
@@ -10502,12 +10502,12 @@ html[lang="zh-hans"] .footer-right-nav li.social-list ul li span {
 }
 
 .hero--red {
-    background-color: #eb3f43;
+    background-color: #D0BD74 !important;
     color: #000;
 }
 
 .hero--red .section__mask::before {
-    background-color: #eb3f43;
+    background-color: #D0BD74 !important;
 }
 
 .hero--red .section__mask::after {
@@ -10632,12 +10632,12 @@ html[lang="zh-hans"] .footer-right-nav li.social-list ul li span {
     }
 
     .hero--red {
-        background-color: #262529;
+        background-color: #D0BD74;
         color: #fff;
     }
 
     .hero--red .section__mask::before {
-        background-color: #262529;
+        background-color: #D0BD74;
     }
 
     .hero--red .section__mask::after {
@@ -10674,7 +10674,7 @@ html[lang="zh-hans"] .footer-right-nav li.social-list ul li span {
 }
 
 .splash--red {
-    background-color: #eb3f43;
+    background-color: #D0BD74;
 }
 
 @media (min-width:30.0625em) and (min-height:30.0625em) {

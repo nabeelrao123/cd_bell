@@ -94,13 +94,13 @@ const Home = () => {
                         <div className="section__mask"></div>
                         <div className="container">
                             <div className="hero--con">
-                                <p>People expect more of brands than ever before. They expect brands to go beyond. We innovate and create
-                                    at the intersections to bring forth the best possible growth solutions for our clients. Ogilvy inspires
-                                    brands and people to impact the world.</p>
+                                <p> BellCow is a comprehensive, full-service independent marketing and digital agency that takes pride in its readiness to do all it takes to nurture and amplify brands online. Established in 2011, the agency have evolved with the clients, with the marketplace and technology.
+                                    We simply work to achieve and deliver the “WOW” factor . </p>
                             </div>
                         </div>
                     </section>
                 </div>
+
 
                 <div className="has-sticky section--default">
                     <section id="work"
